@@ -21,11 +21,11 @@ const App = () => {
           <p className='bodytext'>{content.hero.description}</p>
         </div>
         <div className='panels'>
-          {content.panels.map((panel, i) => {
+          {/* {content.panels.map((panel, i) => {
             return (
               <Panel key={i} title={panel.title} description={panel.description} image={panel.image} />
             )
-          })}
+          })} */}
         </div>
       </div>
       <footer></footer>
