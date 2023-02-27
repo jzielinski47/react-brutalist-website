@@ -55,6 +55,22 @@ header {
     background-color: var(--primary-white);
 }
 
+h1 {
+    font-family: 'Dela Gothic One';
+
+    font-size: 6em;
+    line-height: 128px;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding: 8px 0;
+}
+
+h1:first-of-type {
+    font-size: 8em;
+    /* line-height: 128px; */
+}
+
 h2 {
     font-family: 'Dela Gothic One', Helvetica, sans-serif;
 
@@ -92,22 +108,6 @@ footer p:hover {
 .hero {
     padding: 16rem 0;
     text-align: center;
-}
-
-h1 {
-    font-family: 'Dela Gothic One';
-
-    font-size: 6em;
-    line-height: 128px;
-    text-transform: uppercase;
-    text-align: center;
-
-    padding: 8px 0;
-}
-
-h1:first-of-type {
-    font-size: 8em;
-    /* line-height: 128px; */
 }
 
 .bodytext {
@@ -174,4 +174,36 @@ hr {
 footer {
     text-align: center;
     padding: 1em;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h1:first-of-type {
+        font-size: 6em;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    h1:first-of-type {
+        font-size: 10vw;
+    }
+
+    nav li {
+        float: right;
+    }
+
+    .panels {
+        flex-direction: column;
+    }
+
 }
