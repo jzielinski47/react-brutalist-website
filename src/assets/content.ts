@@ -1,3 +1,6 @@
+import image1 from './gfx/texture1.png';
+import image2 from './gfx/texture2.png';
+
 export const CONTENT = {
     header: {
         title: 'Brutalism',
@@ -14,12 +17,12 @@ export const CONTENT = {
             {
                 title: 'What is Brutalism',
                 description: 'Brutalism is an architectural style that emerged in the 1950s and flourished in the 1960s and 1970s. It is characterized by the use of exposed raw concrete and steel, angular forms and geometric shapes, and a focus on functionality rather than aesthetics. The term “Brutalism” is derived from the French phrase “béton brut”, which means “raw concrete”.',
-                image: ''
+                image: image1
             },
             {
                 title: 'Origins',
                 description: 'Brutalism is a style of architecture that first emerged in the mid-twentieth century as a reaction against the sleek modernism of the International Style. It was initially associated with the works of Le Corbusier, who was one of the pioneers of the style. However, the term “Brutalism” was actually coined by British architects Alison and Peter Smithson in 1953. ',
-                image: ''
+                image: image2
             }
         ],
     },
