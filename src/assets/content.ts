@@ -16,7 +16,7 @@ export const CONTENT = {
         navigation: [
             { title: 'about', href: '#' },
             { title: 'examples', href: '#' },
-            { title: 'about me', href: '#' },
+            { title: 'more projects', href: '#' },
         ],
     },
     hero: {
@@ -75,7 +75,7 @@ export const CONTENT = {
         },
     ],
     footer: {
-
+        content: 'Jakub Zieliński © 2023'
     }
 }
 

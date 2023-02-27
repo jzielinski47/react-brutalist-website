@@ -78,7 +78,14 @@ nav li {
     transition: 300ms ease-in-out;
 }
 
-nav li:hover {
+footer h2,
+footer p {
+    transition: 300ms ease-in-out;
+}
+
+nav li:hover,
+footer h2:hover,
+footer p:hover {
     color: rgb(143, 60, 251);
 }
 
@@ -94,11 +101,13 @@ h1 {
     line-height: 128px;
     text-transform: uppercase;
     text-align: center;
+
+    padding: 8px 0;
 }
 
 h1:first-of-type {
     font-size: 8em;
-    line-height: 128px;
+    /* line-height: 128px; */
 }
 
 .bodytext {
@@ -160,4 +169,9 @@ h1:first-of-type {
 
 hr {
     border: 1px solid var(--primary-black);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
 }
