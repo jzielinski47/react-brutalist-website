@@ -14,7 +14,7 @@ export const CONTENT = {
         navigation: [
             { title: 'about', href: '#' },
             { title: 'examples', href: '#' },
-            { title: 'learn more', href: '#' },
+            { title: 'about me', href: '#' },
         ],
     },
     hero: {
