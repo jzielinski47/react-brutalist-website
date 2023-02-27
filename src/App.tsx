@@ -2,6 +2,7 @@
 
 import { CONTENT as content } from './assets/content';
 import Panel from './components/Panel';
+import Section from './components/Section';
 import Header from './elements/Header';
 
 const App = () => {
@@ -22,7 +23,11 @@ const App = () => {
         </div>
         <hr />
         <div className='sections'>
-
+          {content.sections.map((section, i) => {
+            return (
+              <Section key={i} title={section.title} description={section.description} image={section.image} index={i} />
+            )
+          })}
         </div>
         <hr />
         <div className='examples'>

@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-    padding-top: calc(64px + 24px);
+    padding-top: calc(4rem + 24px);
 }
 
 header {
@@ -40,11 +40,13 @@ header {
     position: fixed;
     width: 80%;
 
-    padding: 32px 0px;
+    padding: 2rem 0px;
     border-bottom: 3px solid var(--primary-black);
 
     display: flex;
     justify-content: space-between;
+
+    background-color: var(--primary-white);
 }
 
 h2 {
@@ -101,12 +103,39 @@ h1 {
     height: auto;
 }
 
+.section img {
+    /* width: 60vw; */
+    min-width: 420px;
+    width: 100%;
+    aspect-ratio: 4/3;
+    /* height: auto; */
+}
+
 .panels {
     display: flex;
     justify-content: space-between;
     gap: 5rem;
+    padding: 2rem 0 4rem 0;
 }
 
 .justified {
     text-align: justify;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+
+    padding: 4rem 0;
+    background-size: cover;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+    max-width: 50%;
 }
