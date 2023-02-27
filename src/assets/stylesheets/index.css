@@ -83,17 +83,22 @@ nav li:hover {
 }
 
 .hero {
-    padding: 8rem 0;
+    padding: 16rem 0;
     text-align: center;
 }
 
 h1 {
     font-family: 'Dela Gothic One';
 
-    font-size: 92px;
+    font-size: 6em;
     line-height: 128px;
     text-transform: uppercase;
     text-align: center;
+}
+
+h1:first-of-type {
+    font-size: 8em;
+    line-height: 128px;
 }
 
 .bodytext {
