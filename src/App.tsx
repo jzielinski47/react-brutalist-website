@@ -27,6 +27,14 @@ const App = () => {
             )
           })} */}
         </div>
+        <hr />
+        <div className='sections'>
+
+        </div>
+        <hr />
+        <div className='examples'>
+
+        </div>
       </div>
       <footer></footer>
     </div>
