@@ -2,20 +2,12 @@
 
 import { CONTENT as content } from './assets/content';
 import Panel from './components/Panel';
+import Header from './elements/Header';
 
 const App = () => {
   return (
     <div className="app">
-      <header>
-        <h2>{content.header.title}</h2>
-        <nav>
-          {content.header.navigation.map((nav: { title: string }, i: number) => (
-            <li key={i}>
-              <h2>{nav.title}</h2>
-            </li>
-          ))}
-        </nav>
-      </header>
+      <Header title={content.header.title} navigation={content.header.navigation} />
       <div className='container'>
         <div className='hero'>
           <h1>{content.hero.title}</h1>
