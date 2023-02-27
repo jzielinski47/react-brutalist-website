@@ -75,6 +75,11 @@ nav {
 nav li {
     float: left;
     margin-left: 48px;
+    transition: 300ms ease-in-out;
+}
+
+nav li:hover {
+    color: rgb(143, 60, 251);
 }
 
 .hero {
@@ -146,4 +151,8 @@ h1 {
     gap: 0.5em;
 
     max-width: 50%;
+}
+
+hr {
+    border: 1px solid var(--primary-black);
 }
