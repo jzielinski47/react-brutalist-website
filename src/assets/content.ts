@@ -49,17 +49,20 @@ export const CONTENT = {
             title: 'Key elements',
             description: 'The key elements of Brutalism include large, modular forms; plain surfaces; and the predominance of exposed concrete, which is often used in bold geometric shapes. Other materials such as brick, steel, and glass may also be used.',
             image: image1
-        },
+        }
+    ],
+    examples: [
         {
             title: 'Key elements',
             description: 'The key elements of Brutalism include large, modular forms; plain surfaces; and the predominance of exposed concrete, which is often used in bold geometric shapes. Other materials such as brick, steel, and glass may also be used.',
             image: image1
-        }
-
+        },
+        {
+            title: 'World war influence',
+            description: 'Europe was heavily affected by World War II and its architecture was greatly impacted. Many cities and towns across Europe were destroyed or heavily damaged from bombing and warfare. In the immediate aftermath of the war, Europe saw a drastic change in its architecture. Cities had to rebuild and many temporary structures were built in place of the destroyed buildings.',
+            image: image2
+        },
     ],
-    examples: {
-
-    },
     footer: {
 
     }

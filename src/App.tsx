@@ -31,7 +31,12 @@ const App = () => {
         </div>
         <hr />
         <div className='examples'>
-
+          <h1>examples</h1>
+          {content.examples.map((exm, i) => {
+            return (
+              <Section key={i} title={exm.title} description={exm.description} image={exm.image} index={i} />
+            )
+          })}
         </div>
       </div>
       <footer></footer>

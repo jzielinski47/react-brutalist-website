@@ -32,7 +32,13 @@ body {
 }
 
 .container {
-    padding-top: calc(4rem + 24px);
+    padding-top: calc(4rem + 24px + 2px);
+}
+
+.examples,
+.sections,
+.panels {
+    padding: 2rem 0;
 }
 
 header {
@@ -72,7 +78,7 @@ nav li {
 }
 
 .hero {
-    padding: 64px 0;
+    padding: 8rem 0;
     text-align: center;
 }
 
@@ -82,6 +88,7 @@ h1 {
     font-size: 92px;
     line-height: 128px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .bodytext {
@@ -106,6 +113,7 @@ h1 {
 .section img {
     /* width: 60vw; */
     min-width: 420px;
+    max-width: 520px;
     width: 100%;
     aspect-ratio: 4/3;
     /* height: auto; */
