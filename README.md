@@ -4,3 +4,4 @@ This is a static website, which features my latest design project about brutalis
 Visit the page yourself: http://brutalist.ct8.pl
 
 Most of the gfx were found on free stocks like Pexels or Unsplash; The page layout was designed by me.
+The page is static, however content can be changed in a single typescript file which contains a single object; 
