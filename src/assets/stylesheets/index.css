@@ -223,3 +223,24 @@ footer {
     }
 
 }
+
+@media only screen and (max-width: 500px) {
+    .textWrapper {
+        max-width: 90%;
+    }
+
+    header {
+        width: 100%;
+        padding: 1em 10%;
+        left: 0;
+    }
+
+    nav li {
+        text-align: right;
+    }
+
+    footer h2 {
+        font-size: 4vw;
+    }
+
+}
