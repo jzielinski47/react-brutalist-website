@@ -218,4 +218,8 @@ footer {
         flex-direction: column;
     }
 
+    .section .wrapper {
+        flex-direction: column-reverse;
+    }
+
 }
