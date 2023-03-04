@@ -1,8 +1,10 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 
 const Header = ({ title, navigation }: { title: string; navigation: any[] }) => {
     return (
-        <header>
+        //  <motion.header animate={{ scale: 1 }} initial={{ scale: 0 }}>
+        <motion.header >
             <h2>{title}</h2>
             <nav>
                 {navigation.map((nav: { title: string }, i: number) => (
@@ -11,7 +13,7 @@ const Header = ({ title, navigation }: { title: string; navigation: any[] }) => 
                     </li>
                 ))}
             </nav>
-        </header>
+        </motion.header>
     )
 }
 

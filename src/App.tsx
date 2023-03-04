@@ -10,11 +10,11 @@ const App = () => {
     <div className="app">
       <Header title={content.header.title} navigation={content.header.navigation} />
       <div className='container'>
-        <motion.div animate={{ y: 0 }} initial={{ y: -200 }} className='hero'>
+        <motion.div animate={{ y: 0 }} initial={{ y: -200 }} transition={{ delay: 0.1 }} className='hero'>
           <h1>{content.hero.title}</h1>
           <p className='bodytext'>{content.hero.description}</p>
         </motion.div>
-        <motion.div className='panels' animate={{ y: 0 }} initial={{ y: 200 }} >
+        <motion.div className='panels' animate={{ y: 0 }} initial={{ y: 200 }} transition={{ delay: 1 }} >
           {content.hero.panels.map((panel, i) => {
             return (
               <Panel key={i} title={panel.title} description={panel.description} image={panel.image} />
