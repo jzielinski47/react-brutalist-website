@@ -9,7 +9,7 @@ This is a static website showcasing my latest design project on the subject of b
 **!!! LIGHT MODE ALERT !!!**
 
 # Deployment
-Visit the page yourself: http://brutalist.ct8.pl
+Visit the page yourself: https://brutalist.ct8.pl
 
 ![image](https://user-images.githubusercontent.com/63867153/222920761-238d9272-87da-459c-9d1d-2df1dc0da498.png)
 
