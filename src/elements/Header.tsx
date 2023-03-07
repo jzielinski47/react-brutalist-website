@@ -5,7 +5,7 @@ import NavigationItem from '../components/NavigationItem';
 const Header = ({ title, navigation }: { title: string; navigation: any[] }) => {
 
     useEffect(() => {
-
+        window.onscroll = () => window.pageYOffset === 0 && console.log("back at top");
     });
 
     return (
