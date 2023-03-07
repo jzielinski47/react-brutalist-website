@@ -15,8 +15,8 @@ export const CONTENT = {
         title: 'Brutalism',
         navigation: [
             { title: 'about', href: '#' },
-            { title: 'examples', href: '#' },
-            { title: 'more projects', href: '#' },
+            { title: 'linkedin', href: 'https://www.linkedin.com/in/jakub-zieli%C5%84ski-750747243/' },
+            { title: 'github', href: 'https://github.com/jzielinski47' },
         ],
     },
     hero: {
