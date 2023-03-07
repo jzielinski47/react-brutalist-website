@@ -4,17 +4,11 @@ import NavigationItem from '../components/NavigationItem';
 
 const Header = ({ title, navigation }: { title: string; navigation: any[] }) => {
 
-    useEffect(() => {
-        window.onscroll = () => window.pageYOffset === 0 && console.log("back at top");
-    });
-
     return (
         //  <motion.header animate={{ scale: 1 }} initial={{ scale: 0 }}>
         <motion.header >
             <h2>{title}</h2>
             <nav>
-
-
                 {navigation.map((nav: { title: string; href: string; }, i: number) => <NavigationItem key={i} title={nav.title} href={nav.href} />)}
 
             </nav>
