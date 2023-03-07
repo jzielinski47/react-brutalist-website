@@ -10,7 +10,7 @@ const Home = () => {
         <><motion.div animate={{ y: 0 }} initial={{ y: -200 }} transition={{ delay: 0.1 }} className='hero'>
             <h1>{content.hero.title}</h1>
             <p className='bodytext'>{content.hero.description}</p>
-        </motion.div><motion.div className='panels' animate={{ y: 0 }} initial={{ y: 200 }} transition={{ delay: 1 }}>
+        </motion.div><motion.div className='panels' animate={{ y: 0 }} initial={{ y: 200 }} transition={{ delay: 1 }} id="about">
                 {content.hero.panels.map((panel, i) => {
                     return (
                         <Panel key={i} title={panel.title} description={panel.description} image={panel.image} />
