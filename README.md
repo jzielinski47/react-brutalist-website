@@ -9,7 +9,7 @@ This is a static website showcasing my latest design project on the subject of b
 **!!! LIGHT MODE ALERT !!!**
 
 # Deployment
-Visit the page yourself: https://cool-gaufre-7e306d.netlify.app
+Visit the page yourself: https://brutalistart.netlify.app
 
 the page was redeployed to another hosting: Netlify
 
