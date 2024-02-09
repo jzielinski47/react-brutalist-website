@@ -65,7 +65,7 @@ export const CONTENT = {
         },
         {
             title: 'The National Theatre, London',
-            description: 'The Royal National Theatre of Great Britain, commonly known as the National Theatre (NT) within the UK and as the National Theatre of Great Britain internationally,[2][3] is a performing arts venue and associated theatre company located in London, England. The theatre was founded by the actor Laurence Olivier in 1963, and many well-known actors have performed with it since.',
+            description: 'The Royal National Theatre of Great Britain, commonly known as the National Theatre (NT) within the UK and as the National Theatre of Great Britain internationally, is a performing arts venue and associated theatre company located in London, England. The theatre was founded by the actor Laurence Olivier in 1963, and many well-known actors have performed with it since.',
             image: thenationaltheatre
         },
         {
