@@ -65,12 +65,12 @@ export const CONTENT = {
         },
         {
             title: 'The National Theatre, London',
-            description: 'Europe was heavily affected by World War II and its architecture was greatly impacted. Many cities and towns across Europe were destroyed or heavily damaged from bombing and warfare. In the immediate aftermath of the war, Europe saw a drastic change in its architecture. Cities had to rebuild and many temporary structures were built in place of the destroyed buildings.',
+            description: 'The Royal National Theatre of Great Britain, commonly known as the National Theatre (NT) within the UK and as the National Theatre of Great Britain internationally,[2][3] is a performing arts venue and associated theatre company located in London, England. The theatre was founded by the actor Laurence Olivier in 1963, and many well-known actors have performed with it since.',
             image: thenationaltheatre
         },
         {
             title: 'Embassy of Czechoslovakia, Berlin',
-            description: 'Europe was heavily affected by World War II and its architecture was greatly impacted. Many cities and towns across Europe were destroyed or heavily damaged from bombing and warfare. In the immediate aftermath of the war, Europe saw a drastic change in its architecture. Cities had to rebuild and many temporary structures were built in place of the destroyed buildings.',
+            description: 'The buildings was constructed as the embassy of Czechoslovakia from 1974 to 1978 to a design by the architects Vera Machonina, Vladimir Machonin and Klaus Pätzmann on what was then Thälmannplatz (until 1949: Wilhelmplatz).',
             image: embassyofczechoslovakia
         },
     ],
